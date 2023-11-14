@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+
+/* issue list */
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #333;
+}
+.labid span {
+    background: rgb(4, 161, 38);
+    color: rgb(255, 255, 255);
+}
+.labid h6 {
+    margin-top: 5px;
+}
+.well p glyphicon-user {
+    margin-left: 1rem;
+    padding: 5rem;
+}
+.well #closebtn {
+    background: rgb(38, 130, 255);
+    outline: none;
+    border: none;
+}
+.well #closebtn:hover {
+    background: rgb(26, 109, 225);
+}
+.well #delbtn{
+    background: rgb(219, 4, 4);
+    outline: none;
+    border: none;
+}
+.well #delbtn:hover{
+    background: rgb(173, 2, 2);
+}
+
+
+/* back button */
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    color:rgb(255, 255, 255);
+}
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Reset some default browser styles */
+body, h1, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #d08dab;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #d08dab;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #b9829b;
+}
+
+/* Custom styles for the issues list */
+.issue {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.issue p {
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 0;
+    }
+}
